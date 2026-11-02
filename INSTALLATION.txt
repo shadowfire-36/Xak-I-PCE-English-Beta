@@ -1,4 +1,4 @@
-XAK I — PC ENGINE CD ENGLISH BETA 1
+XAK I — PC ENGINE CD ENGLISH BETA 2
 
 This is an experimental public-playtest package. Xak I only; Xak II is not translated by this release. No game image or BIOS is included.
 
@@ -17,20 +17,27 @@ A CHD, separate-track BIN set, 2048-byte-sector ISO or different dump is not the
 
 INSTALLATION
 1. Extract this ZIP to a folder.
-2. Make a COPY of your matching original disc image. Name the copy Xak_I_Beta_1.iso. Keep your original unchanged.
+2. Make a COPY of your matching original disc image. Name the copy Xak_I_Beta_2.iso. Keep your original unchanged.
 3. Open Delta Patcher in Apply Patch mode. Select that COPY as Original file.
-4. Select Xak_I_English_Beta_1.xdelta as XDelta patch, then apply it. Keep checksum validation enabled. Stop if the tool reports a mismatch; do not force the patch.
+4. Select Xak_I_English_Beta_2.xdelta as XDelta patch, then apply it. Keep checksum validation enabled. Stop if the tool reports a mismatch; do not force the patch.
 5. Confirm the patched image matches the expected checksums below.
-6. Place Xak_I_Beta_1.cue beside Xak_I_Beta_1.iso. Open the CUE in your PC Engine CD emulator with your own compatible System Card BIOS. The CUE retains the disc's audio/data track layout.
+6. Place Xak_I_Beta_2.cue beside Xak_I_Beta_2.iso. Open the CUE in your PC Engine CD emulator with your own compatible System Card BIOS. The CUE retains the disc's audio/data track layout.
 7. Choose Xak I. Keep your existing saves backed up separately. Do not patch an already-patched image or apply both patch formats.
 
 EXPECTED PATCHED RESULT
 File length: 563,057,040 bytes
-CRC32: EC14DA90
-SHA-256: 85e6b27616df092939961c2a9589a261b37b22b65557f666c9aaff6655e6861b
+CRC32: CFC2C6DD
+SHA-256: 2d8a56f9c50a76e6b18f0c556ba40b4060803df5cad3cf4155a10ec6198a7e5c
 
 CHECKING SHA-256 ON WINDOWS
 Right-click Verify SHA256.ps1 and choose Run with PowerShell, or use a checksum utility. The script asks you to select an image and identifies the exact original or patched beta by SHA-256. Full CRC32/SHA-256 values are also in CHECKSUMS.json.
+
+UPDATING FROM BETA 1
+Apply Beta 2 to a clean matching ORIGINAL, not the Beta 1 image. Power-cycle the emulator after opening the new CUE. Older emulator save states can restore old cached Japanese text; prefer your normal in-game save when possible. Keep every save backed up.
+
+BETA 2 CHANGES
+The two reported help choices now read WILL YOU HELP?; unrelated WHAT NOW? choices retain their original meaning. The repeated Fray path and mirrored copies are included. Latok's repeated name label is omitted in these tight question slots.
+The loading blessing line is translated. Item and quest menu tables are translated in all 36 matching Game I copies, with short English names to fit the original menu width. Additional untouched equipment-name copies are translated.
 
 SCOPE AND KNOWN LIMITS
 1,169 exported Japanese/English source pairs: dialogue, shops, equipment labels and system text. This count is not proof of a complete natural playthrough.
@@ -41,7 +48,7 @@ Please report untranslated text, clipped text, wrong speakers, crashes, save pro
 
 SCREENSHOTS
 cave-gameplay.png: beta cave save loaded and advanced in private Mesen.
-4e22b2.png and 4e2bbf.png: actual native dialogue renderer captures made with Beta 1 using a private test harness. They demonstrate translated text rendering, not naturally reached story progression.
+4e22b2.png and 4e2bbf.png: actual native dialogue renderer captures made with Beta 2 using a private test harness. They demonstrate translated text rendering, not naturally reached story progression.
 
 CREDITS
 Original MSX English translation: Rieks Warendorp Torringa.

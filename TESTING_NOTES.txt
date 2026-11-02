@@ -1,0 +1,6 @@
+Beta 2 remains a public playtest, not a verified complete natural playthrough.
+New: WILL YOU HELP? in the two reported scenes (six physical slots); loading blessing; 56 item/quest names in 36 native menu copies; 126 remaining physical equipment labels.
+Native choice and loading text renderer captures passed. Fresh native title-to-town disc loading passed, including byte-for-byte readback of the complete updated 8KB menu bank and existing dialogue. Pointer/length/glyph-format assertions passed for every repacked table. Changed-sector whitelist and EDC/ECC checks passed. xdelta decode reproduces the exact new image.
+Every quest branch, every owned item in every region, normal in-game saving and real hardware remain unverified. Earlier native-save issue from an imported cave state remains under investigation. Original game/movie audio and staff-credit graphics are unchanged.
+English item labels use conventional abbreviations because this fixed-width UI has limited cells. Full menu coverage is not a claim that every incidental Japanese UI graphic is translated.
+Credits: original MSX English translation by Rieks Warendorp Torringa; PC Engine adaptation/project Jason / shadowfire-36. PCE differences handled separately.
