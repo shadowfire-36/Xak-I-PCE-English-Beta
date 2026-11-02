@@ -1,0 +1,17 @@
+{
+  "original": {
+    "bytes": 563057040,
+    "sha256": "3ba67343d89ad199e93acd4724ba044c1177b8b2b1a2ffb593c9e51ac06d3f56",
+    "crc32": "6BD28D3D"
+  },
+  "patched": {
+    "bytes": 563057040,
+    "sha256": "85e6b27616df092939961c2a9589a261b37b22b65557f666c9aaff6655e6861b",
+    "crc32": "EC14DA90"
+  },
+  "patch": {
+    "bytes": 77054,
+    "sha256": "d96461cead7e3c6cc07be01162625140cc068bc48c46ccbb6bcc5c64425415bd",
+    "crc32": "EC0D1384"
+  }
+}

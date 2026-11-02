@@ -1,0 +1,49 @@
+XAK I — PC ENGINE CD ENGLISH BETA 1
+
+This is an experimental public-playtest package. Xak I only; Xak II is not translated by this release. No game image or BIOS is included.
+
+PATCHING TOOL
+Delta Patcher (Windows/macOS/Linux), official releases:
+https://github.com/marco-calautti/DeltaPatcher/releases
+This applies .xdelta patches. PPF-O-Matic is not used. Download the tool separately; it is not bundled.
+
+REQUIRED ORIGINAL
+Unmodified Japanese Xak I & II whole-disc raw image, 2352 bytes per sector.
+File length: 563,057,040 bytes
+CRC32: 6BD28D3D
+SHA-256: 3ba67343d89ad199e93acd4724ba044c1177b8b2b1a2ffb593c9e51ac06d3f56
+The supplied source was named Xak_1_and_2_(NTSC-J)_[TJCD2032].iso. Its extension is .iso, but it contains RAW 2352-byte sectors. A filename alone does not establish compatibility.
+A CHD, separate-track BIN set, 2048-byte-sector ISO or different dump is not the required input. Renaming one will not convert it.
+
+INSTALLATION
+1. Extract this ZIP to a folder.
+2. Make a COPY of your matching original disc image. Name the copy Xak_I_Beta_1.iso. Keep your original unchanged.
+3. Open Delta Patcher in Apply Patch mode. Select that COPY as Original file.
+4. Select Xak_I_English_Beta_1.xdelta as XDelta patch, then apply it. Keep checksum validation enabled. Stop if the tool reports a mismatch; do not force the patch.
+5. Confirm the patched image matches the expected checksums below.
+6. Place Xak_I_Beta_1.cue beside Xak_I_Beta_1.iso. Open the CUE in your PC Engine CD emulator with your own compatible System Card BIOS. The CUE retains the disc's audio/data track layout.
+7. Choose Xak I. Keep your existing saves backed up separately. Do not patch an already-patched image or apply both patch formats.
+
+EXPECTED PATCHED RESULT
+File length: 563,057,040 bytes
+CRC32: EC14DA90
+SHA-256: 85e6b27616df092939961c2a9589a261b37b22b65557f666c9aaff6655e6861b
+
+CHECKING SHA-256 ON WINDOWS
+Right-click Verify SHA256.ps1 and choose Run with PowerShell, or use a checksum utility. The script asks you to select an image and identifies the exact original or patched beta by SHA-256. Full CRC32/SHA-256 values are also in CHECKSUMS.json.
+
+SCOPE AND KNOWN LIMITS
+1,169 exported Japanese/English source pairs: dialogue, shops, equipment labels and system text. This count is not proof of a complete natural playthrough.
+A full natural playthrough, every choice branch and normal in-game saving are not verified.
+Native SAVE stalled from an imported cave snapshot in both earlier and beta builds. Save-state creation/reload passed in private Mesen testing; back up saves and report save behavior.
+Japanese cinematic audio and movie staff-credit graphics remain unchanged. No English voice dubbing.
+Please report untranslated text, clipped text, wrong speakers, crashes, save problems or progression blockers. Include emulator/version, scene, screenshot, reproduction steps and an optional save state.
+
+SCREENSHOTS
+cave-gameplay.png: beta cave save loaded and advanced in private Mesen.
+4e22b2.png and 4e2bbf.png: actual native dialogue renderer captures made with Beta 1 using a private test harness. They demonstrate translated text rendering, not naturally reached story progression.
+
+CREDITS
+Original MSX English translation: Rieks Warendorp Torringa.
+PC Engine adaptation and beta project: Jason / shadowfire-36.
+The MSX English script was used as a reference; PCE-specific differences were translated separately. This is an independent PCE beta, not a WOOMB-authored or endorsed release. Exact extracted-script edition identification remains under review.
