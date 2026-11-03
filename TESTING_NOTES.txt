@@ -4,3 +4,5 @@ Native choice and loading text renderer captures passed. Fresh native title-to-t
 Every quest branch, every owned item in every region, normal in-game saving and real hardware remain unverified. Earlier native-save issue from an imported cave state remains under investigation. Original game/movie audio and staff-credit graphics are unchanged.
 English item labels use conventional abbreviations because this fixed-width UI has limited cells. Full menu coverage is not a claim that every incidental Japanese UI graphic is translated.
 Credits: original MSX English translation by Rieks Warendorp Torringa; PC Engine adaptation/project Jason / shadowfire-36. PCE differences handled separately.
+
+Beta 2.1: 54 additional shared loading-blessing copies corrected; all 94 source copies read back in English. Same 22-byte width and original controls/terminators retained. xdelta round-trip passed. Actual startup-load verification is recorded separately; no claim of a full playthrough.
