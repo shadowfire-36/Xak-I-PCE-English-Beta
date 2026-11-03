@@ -1,4 +1,4 @@
-XAK I — PC ENGINE CD ENGLISH BETA 2.1
+XAK I — PC ENGINE CD ENGLISH BETA 2.2
 
 This is an experimental public-playtest package. Xak I only; Xak II is not translated by this release. No game image or BIOS is included.
 
@@ -17,25 +17,25 @@ A CHD, separate-track BIN set, 2048-byte-sector ISO or different dump is not the
 
 INSTALLATION
 1. Extract this ZIP to a folder.
-2. Make a COPY of your matching original disc image. Name the copy Xak_I_Beta_2_1.iso. Keep your original unchanged.
+2. Make a COPY of your matching original disc image. Name the copy Xak_I_Beta_2_2.iso. Keep your original unchanged.
 3. Open Delta Patcher in Apply Patch mode. Select that COPY as Original file.
-4. Select Xak_I_English_Beta_2_1.xdelta as XDelta patch, then apply it. Keep checksum validation enabled. Stop if the tool reports a mismatch; do not force the patch.
+4. Select Xak_I_English_Beta_2_2.xdelta as XDelta patch, then apply it. Keep checksum validation enabled. Stop if the tool reports a mismatch; do not force the patch.
 5. Confirm the patched image matches the expected checksums below.
-6. Place Xak_I_Beta_2_1.cue beside Xak_I_Beta_2_1.iso. Open the CUE in your PC Engine CD emulator with your own compatible System Card BIOS. The CUE retains the disc's audio/data track layout.
+6. Place Xak_I_Beta_2_2.cue beside Xak_I_Beta_2_2.iso. Open the CUE in your PC Engine CD emulator with your own compatible System Card BIOS. The CUE retains the disc's audio/data track layout.
 7. Choose Xak I. Keep your existing saves backed up separately. Do not patch an already-patched image or apply both patch formats.
 
 EXPECTED PATCHED RESULT
 File length: 563,057,040 bytes
-CRC32: 8694DA8E
-SHA-256: bcf9e90e002c1ada65b048a27b0bfa9eac424835f854ad6e80ea83f3f750c901
+CRC32: F4189515
+SHA-256: 619a7a6a551206aa8b410f7edbec6b2ab19b872e971a44387209694f7137cdd0
 
 CHECKING SHA-256 ON WINDOWS
 Right-click Verify SHA256.ps1 and choose Run with PowerShell, or use a checksum utility. The script asks you to select an image and identifies the exact original or patched beta by SHA-256. Full CRC32/SHA-256 values are also in CHECKSUMS.json.
 
 UPDATING FROM BETA 1
-Apply Beta 2.1 to a clean matching ORIGINAL, not the Beta 1 image. Power-cycle the emulator after opening the new CUE. Older emulator save states can restore old cached Japanese text; prefer your normal in-game save when possible. Keep every save backed up.
+Apply Beta 2.2 to a clean matching ORIGINAL, not the Beta 1 image. Power-cycle the emulator after opening the new CUE. Older emulator save states can restore old cached Japanese text; prefer your normal in-game save when possible. Keep every save backed up.
 
-BETA 2.1 CHANGES
+BETA 2.2 CHANGES
 The two reported help choices now read WILL YOU HELP?; unrelated WHAT NOW? choices retain their original meaning. The repeated Fray path and mirrored copies are included. Latok's repeated name label is omitted in these tight question slots.
 The loading blessing line is translated. Item and quest menu tables are translated in all 36 matching Game I copies, with short English names to fit the original menu width. Additional untouched equipment-name copies are translated.
 
@@ -48,12 +48,15 @@ Please report untranslated text, clipped text, wrong speakers, crashes, save pro
 
 SCREENSHOTS
 cave-gameplay.png: beta cave save loaded and advanced in private Mesen.
-4e22b2.png and 4e2bbf.png: actual native dialogue renderer captures made with Beta 2.1 using a private test harness. They demonstrate translated text rendering, not naturally reached story progression.
+4e22b2.png and 4e2bbf.png: actual native dialogue renderer captures made with Beta 2.2 using a private test harness. They demonstrate translated text rendering, not naturally reached story progression.
 
 CREDITS
 Original MSX English translation: Rieks Warendorp Torringa.
 PC Engine adaptation and beta project: Jason / shadowfire-36.
 The MSX English script was used as a reference; PCE-specific differences were translated separately. This is an independent PCE beta, not a WOOMB-authored or endorsed release. Exact extracted-script edition identification remains under review.
+
+BETA 2.2 WORDING UPDATE
+The blessing now reads MAY DUEL / PROTECT YOU! on two lines. Adjacent confirmation remains LOAD?; all 94 text copies and 81 matching native pointer instructions updated. Native controls and item/save IDs retained.
 
 BETA 2.1 LOAD-SCREEN HOTFIX
 Beta 2 missed a shared startup-load text copy outside the Game I event range. The startup emulator RAM trace located Japanese text at card RAM 0x18094. This hotfix updates all 94 source copies of the single blessing, including 54 copies missed by Beta 2 and the spelling variant. It does not translate Game II dialogue.

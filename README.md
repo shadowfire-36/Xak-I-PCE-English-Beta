@@ -1,16 +1,24 @@
-# Xak I — PC Engine CD English Beta 2.1
+# Xak I — PC Engine CD English Beta 2.2
 
 An experimental English playtest patch for **Xak I** on the Japanese **Xak I & II** PC Engine CD disc. **Xak II is not included in this translation beta.**
 
 ## Download
 
-[Download the Beta 2.1 patch ZIP](https://github.com/shadowfire-36/Xak-I-PCE-English-Beta/raw/refs/heads/main/Xak_I_English_Beta_2_1.zip)
+[Download the Beta 2.2 patch ZIP](https://github.com/shadowfire-36/Xak-I-PCE-English-Beta/raw/refs/heads/main/Xak_I_English_Beta_2_2.zip)
 
 Use [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases) to apply the included xdelta patch to a **copy** of your matching original raw disc image. No game image or BIOS is included.
 
 [Step-by-step installation](INSTALLATION.txt) · [Checksums](CHECKSUMS.json) · [Report a bug](https://github.com/shadowfire-36/Xak-I-PCE-English-Beta/issues)
 
-## Beta 2.1 startup-load hotfix
+## Beta 2.2 blessing wording
+
+The loading message now reads **MAY DUEL / PROTECT YOU!** on two lines. The short confirmation reads LOAD?. Existing save filenames can be retained.
+
+![Verified startup load-screen wording](screenshots/load-screen-beta22.png)
+
+Native startup load confirmation with copied save slots; this verifies this screen, not a full natural playthrough.
+
+## Previous startup-load hotfix
 
 Beta 2 missed shared startup-load text outside the Game I event range. This update covers all 94 source copies of the blessing, including a spelling variant. Apply to the clean original and restart from the updated CUE. An old emulator snapshot can still restore old cached code/text.
 
@@ -32,7 +40,7 @@ Whole-disc RAW image with 2352-byte sectors; **563,057,040 bytes**. A CHD, separ
 | Image | CRC32 |
 |---|---|
 | Exact original | `6BD28D3D` |
-| Patched Beta 2 | `8694DA8E` |
+| Patched Beta 2 | `F4189515` |
 
 Full SHA-256 values are in the instructions and checksums file. Keep checksum validation enabled in your patcher.
 
