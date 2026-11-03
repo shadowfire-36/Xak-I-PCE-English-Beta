@@ -40,7 +40,7 @@ Whole-disc RAW image with 2352-byte sectors; **563,057,040 bytes**. A CHD, separ
 | Image | CRC32 |
 |---|---|
 | Exact original | `6BD28D3D` |
-| Patched Beta 2 | `F4189515` |
+| Patched Beta 2.2 | `F4189515` |
 
 Full SHA-256 values are in the instructions and checksums file. Keep checksum validation enabled in your patcher.
 
@@ -61,9 +61,29 @@ Please report untranslated text, clipping, wrong speakers, crashes, save problem
 
 **Original MSX English translation: Rieks Warendorp Torringa.**
 
-PC Engine adaptation and beta project: **Jason / shadowfire-36**. The MSX script served as a reference, with PCE-specific differences handled separately. This independent beta is not a WOOMB-authored or endorsed PCE release; exact extracted-script edition identification remains under review.
+PC Engine adaptation and beta project: **Jason / shadowfire36**. The MSX script served as a reference, with PCE-specific differences handled separately. This independent beta is not a WOOMB-authored or endorsed PCE release; exact extracted-script edition identification remains under review.
 
-## Screenshots
+Special thanks to **nightwolf** for pointing the project toward PC Engine memory information and text resources that helped make this patch possible.
+
+## Gameplay screenshots and comparison
+
+### Japanese / English loading screen
+
+![Before: Japanese loading message](screenshots/facebook/01-before-japanese-loading.png)
+
+![After: Beta 2.2 English loading message](screenshots/facebook/02-after-english-loading.png)
+
+### English dialogue
+
+![Fray scene: How can I help?](screenshots/facebook/03-fray-english-dialogue.png)
+
+![Domic checking on Fray](screenshots/facebook/04-domic-english-dialogue.png)
+
+![Domic thanking Latok](screenshots/facebook/05-domic-thank-you.png)
+
+The three dialogue pictures are cropped frames from Jason’s earlier Beta 1 playtest recording; these particular lines remain in the current patch. Emulator chrome and outside margins were removed; game text and artwork were not altered. The English loading screen is verified in Beta 2.2. The Japanese loading screen was supplied by Jason.
+
+## Earlier screenshots
 
 ![Beta cave gameplay](screenshots/cave-gameplay.png)
 
